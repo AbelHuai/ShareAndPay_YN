@@ -1,0 +1,29 @@
+//
+//  ShareAndPay-Prefix.pch
+//  ShareAndPay
+//
+//  Created by Abel on 16/9/5.
+//  Copyright © 2016年 杨南. All rights reserved.
+//
+
+#ifndef ShareAndPay_Prefix_pch
+#define ShareAndPay_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+//添加ShareSDK包预编译头
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+
+
+#endif
+
+
+
+
+
+#endif /* CloudPurchaseEra_Prefix_pch */

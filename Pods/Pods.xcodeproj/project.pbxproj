@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		322A68EC742E10B5D7B5D339E0122EF7 /* Pods-ShareAndPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6853D3677B87011D91D921E322D4E3 /* Pods-ShareAndPay-dummy.m */; };
+		AECAFB3A1576E615CB061D5F37338653 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		003455DDACE66B934F229FCFE3BA560C /* WBSDKCommentButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKCommentButton.h; path = ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WBSDKCommentButton.h; sourceTree = "<group>"; };
+		06C8D12425D1D5FE8E7554045C63D103 /* WBSDKBasicButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKBasicButton.h; path = ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WBSDKBasicButton.h; sourceTree = "<group>"; };
+		0A0AA32866B4617049690C61454F1E4B /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		0CE9DBD50C8C732B2D3E46529975665A /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
+		10CEC742031E640195DCA82992F760FD /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboGame.h"; path = "ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
+		2FEDDD6F9F9D499E21A8C37EDF117A61 /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDKConnector.framework; path = ShareSDK/Support/Required/ShareSDKConnector.framework; sourceTree = "<group>"; };
+		30DA9C51E8A78E0AD0A19185E5A25ADB /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboShare.h"; path = "ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+		362CEC3D39C55CB22A76ADD9E5FE6CB9 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = ShareSDK/Support/PlatformSDK/WeChatSDK/WXApiObject.h; sourceTree = "<group>"; };
+		440C49DD52433959588B1544133D866F /* ShareSDKUI.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ShareSDKUI.bundle; path = ShareSDK/Support/Optional/ShareSDKUI.bundle; sourceTree = "<group>"; };
+		4873A55794EFC021D690F1025CBF2BC9 /* libPods-ShareAndPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareAndPay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3D46CA22F4DDC5B51759FDB872A715 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
+		50664F334137A7B8733B736E6C0F2EF1 /* Pods-ShareAndPay-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareAndPay-frameworks.sh"; sourceTree = "<group>"; };
+		56591EF4D558C7BAB9327A23CF6A8A74 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = ShareSDK/Support/PlatformSDK/WeChatSDK/WXApi.h; sourceTree = "<group>"; };
+		68007589807F2B31F1AEB93FD8FE6D7F /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboUser.h"; path = "ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
+		69C3F1D9EE21F8103E2C8E301D88F0D2 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = ShareSDK/Support/PlatformSDK/QQSDK/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		6F6853D3677B87011D91D921E322D4E3 /* Pods-ShareAndPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShareAndPay-dummy.m"; sourceTree = "<group>"; };
+		701538584815F16B58F5CDBF8ACEED31 /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDKExtension.framework; path = ShareSDK/Support/Optional/ShareSDKExtension.framework; sourceTree = "<group>"; };
+		7BC75C84D70BB5C65F742BB6AE5DF855 /* WeiboUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboUser.h; path = ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboUser.h; sourceTree = "<group>"; };
+		7CFFB297B66AE9A8A7E2161726E48CFD /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = ShareSDK/Support/PlatformSDK/QQSDK/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		7F5BB8BA83EADD4B8230CB02B427AFAF /* WeiboSDK+Statistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WeiboSDK+Statistics.h"; path = "ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK+Statistics.h"; sourceTree = "<group>"; };
+		8123F7B0D59E012C302581A540FD71E3 /* ShareSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ShareSDK.bundle; path = ShareSDK/Support/Required/ShareSDK.bundle; sourceTree = "<group>"; };
+		81E1D6C1D665ACDF8FD19F3B0CC5BA65 /* Pods-ShareAndPay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShareAndPay-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A43DDDE392276B647DF795196F690B0 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = ShareSDK/Support/PlatformSDK/WeChatSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08E90FFF66BC4D48CED3EA2A1B86610 /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WBHttpRequest+WeiboToken.h"; path = "ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
+		A26957BF4CD37C06C00368E143AF55F0 /* Pods-ShareAndPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareAndPay.debug.xcconfig"; sourceTree = "<group>"; };
+		ADE025E8CCF5AD7E599F5C3907FFF8D3 /* Pods-ShareAndPay-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareAndPay-resources.sh"; sourceTree = "<group>"; };
+		B8703C8D710EBB319BD233E5CE96B832 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
+		BC41E0F77732B9CE76C3BAB2424C647A /* Pods-ShareAndPay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShareAndPay-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD96BF6AB8584015E5433CE822116974 /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBSDKRelationshipButton.h; path = ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WBSDKRelationshipButton.h; sourceTree = "<group>"; };
+		E1DC69A433E6AE777C8AA3252647681D /* ShareSDKUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDKUI.framework; path = ShareSDK/Support/Optional/ShareSDKUI.framework; sourceTree = "<group>"; };
+		EC7654A6AC9620D6B449890C79A5D680 /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDK.framework; path = ShareSDK/ShareSDK.framework; sourceTree = "<group>"; };
+		ED5341354178F2211115C125E2EFD3FC /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = ShareSDK/Support/PlatformSDK/WeChatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
+		F7B636CA6E1ECED4049C7DC9A604F48B /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = ShareSDK/Support/PlatformSDK/SinaWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
+		F7E4BB90DE26FEC7AB3871A689290614 /* Pods-ShareAndPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareAndPay.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AA740A1A6CD6975BBEF5D0A35837834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECAFB3A1576E615CB061D5F37338653 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050933076F17F55200EDCFEE7BE6EDE6 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				34DDEBE3BBB7D11A9BD1BC2D78C6359C /* Frameworks */,
+				E0BC646A7A679D2F42F9189B38033D41 /* Resources */,
+			);
+			name = QQ;
+			sourceTree = "<group>";
+		};
+		06A5549DD520CB1E444A78A3747A2849 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1DC69A433E6AE777C8AA3252647681D /* ShareSDKUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11FFEB200A8E4198387E8693B35C1C3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A0AA32866B4617049690C61454F1E4B /* MOBFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34DDEBE3BBB7D11A9BD1BC2D78C6359C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CFFB297B66AE9A8A7E2161726E48CFD /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		41DF66B71A6D7535620FABA7F6856D7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED5341354178F2211115C125E2EFD3FC /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48039C6A047AE8D2B8BC5E84CB8E89B6 /* Pods-ShareAndPay */ = {
+			isa = PBXGroup;
+			children = (
+				BC41E0F77732B9CE76C3BAB2424C647A /* Pods-ShareAndPay-acknowledgements.markdown */,
+				81E1D6C1D665ACDF8FD19F3B0CC5BA65 /* Pods-ShareAndPay-acknowledgements.plist */,
+				6F6853D3677B87011D91D921E322D4E3 /* Pods-ShareAndPay-dummy.m */,
+				50664F334137A7B8733B736E6C0F2EF1 /* Pods-ShareAndPay-frameworks.sh */,
+				ADE025E8CCF5AD7E599F5C3907FFF8D3 /* Pods-ShareAndPay-resources.sh */,
+				A26957BF4CD37C06C00368E143AF55F0 /* Pods-ShareAndPay.debug.xcconfig */,
+				F7E4BB90DE26FEC7AB3871A689290614 /* Pods-ShareAndPay.release.xcconfig */,
+			);
+			name = "Pods-ShareAndPay";
+			path = "Target Support Files/Pods-ShareAndPay";
+			sourceTree = "<group>";
+		};
+		581A4FBA2C8F5593D47865814CE3A7C3 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				8A43DDDE392276B647DF795196F690B0 /* WechatAuthSDK.h */,
+				56591EF4D558C7BAB9327A23CF6A8A74 /* WXApi.h */,
+				362CEC3D39C55CB22A76ADD9E5FE6CB9 /* WXApiObject.h */,
+				41DF66B71A6D7535620FABA7F6856D7C /* Frameworks */,
+			);
+			name = WeChat;
+			sourceTree = "<group>";
+		};
+		5CFE193829CBADE3A48E387CF741DDFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4873A55794EFC021D690F1025CBF2BC9 /* libPods-ShareAndPay.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E12B1CE186441C764FBDD733C44691E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6758DBCDE4DD9323CDF79B8B9130906 /* MOBFoundation */,
+				DF24ED546E7A589BA8FD77D9717DB732 /* ShareSDK3 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		78F051C2386AB1C90BC03089908C0720 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				440C49DD52433959588B1544133D866F /* ShareSDKUI.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7D51665538F25A8436D1B9B1304A95BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7B636CA6E1ECED4049C7DC9A604F48B /* libWeiboSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5E12B1CE186441C764FBDD733C44691E /* Pods */,
+				5CFE193829CBADE3A48E387CF741DDFD /* Products */,
+				BD6BA9389680D0D6DF02E3528D4CFBCC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D6986F3C498A224BAE948C493816985 /* SinaWeibo */ = {
+			isa = PBXGroup;
+			children = (
+				0CE9DBD50C8C732B2D3E46529975665A /* WBHttpRequest.h */,
+				10CEC742031E640195DCA82992F760FD /* WBHttpRequest+WeiboGame.h */,
+				30DA9C51E8A78E0AD0A19185E5A25ADB /* WBHttpRequest+WeiboShare.h */,
+				A08E90FFF66BC4D48CED3EA2A1B86610 /* WBHttpRequest+WeiboToken.h */,
+				68007589807F2B31F1AEB93FD8FE6D7F /* WBHttpRequest+WeiboUser.h */,
+				06C8D12425D1D5FE8E7554045C63D103 /* WBSDKBasicButton.h */,
+				003455DDACE66B934F229FCFE3BA560C /* WBSDKCommentButton.h */,
+				DD96BF6AB8584015E5433CE822116974 /* WBSDKRelationshipButton.h */,
+				4C3D46CA22F4DDC5B51759FDB872A715 /* WeiboSDK.h */,
+				7F5BB8BA83EADD4B8230CB02B427AFAF /* WeiboSDK+Statistics.h */,
+				7BC75C84D70BB5C65F742BB6AE5DF855 /* WeiboUser.h */,
+				7D51665538F25A8436D1B9B1304A95BD /* Frameworks */,
+				DE48B17800B3ECED62C8328C0C964F77 /* Resources */,
+			);
+			name = SinaWeibo;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD6BA9389680D0D6DF02E3528D4CFBCC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48039C6A047AE8D2B8BC5E84CB8E89B6 /* Pods-ShareAndPay */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BF84BD1076C00E86B74060DE49595D3A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8123F7B0D59E012C302581A540FD71E3 /* ShareSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D23FCB9E1D643ABEE0657069477865E9 /* ShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E2E9032AB04C78588D12B8B4AF4989B0 /* Frameworks */,
+				BF84BD1076C00E86B74060DE49595D3A /* Resources */,
+			);
+			name = ShareSDK;
+			sourceTree = "<group>";
+		};
+		D6758DBCDE4DD9323CDF79B8B9130906 /* MOBFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				11FFEB200A8E4198387E8693B35C1C3C /* Frameworks */,
+			);
+			path = MOBFoundation;
+			sourceTree = "<group>";
+		};
+		DE48B17800B3ECED62C8328C0C964F77 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B8703C8D710EBB319BD233E5CE96B832 /* WeiboSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DF24ED546E7A589BA8FD77D9717DB732 /* ShareSDK3 */ = {
+			isa = PBXGroup;
+			children = (
+				FDCA98C19720CB411BD6F99EC674FA02 /* Frameworks */,
+				D23FCB9E1D643ABEE0657069477865E9 /* ShareSDK */,
+				F726010925E9DD504B94766735866596 /* ShareSDKPlatforms */,
+				EADDF805A4ED123B60885F67C8D0CF54 /* ShareSDKUI */,
+			);
+			path = ShareSDK3;
+			sourceTree = "<group>";
+		};
+		E0BC646A7A679D2F42F9189B38033D41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69C3F1D9EE21F8103E2C8E301D88F0D2 /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E2E9032AB04C78588D12B8B4AF4989B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FEDDD6F9F9D499E21A8C37EDF117A61 /* ShareSDKConnector.framework */,
+				701538584815F16B58F5CDBF8ACEED31 /* ShareSDKExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EADDF805A4ED123B60885F67C8D0CF54 /* ShareSDKUI */ = {
+			isa = PBXGroup;
+			children = (
+				06A5549DD520CB1E444A78A3747A2849 /* Frameworks */,
+				78F051C2386AB1C90BC03089908C0720 /* Resources */,
+			);
+			name = ShareSDKUI;
+			sourceTree = "<group>";
+		};
+		F726010925E9DD504B94766735866596 /* ShareSDKPlatforms */ = {
+			isa = PBXGroup;
+			children = (
+				050933076F17F55200EDCFEE7BE6EDE6 /* QQ */,
+				9D6986F3C498A224BAE948C493816985 /* SinaWeibo */,
+				581A4FBA2C8F5593D47865814CE3A7C3 /* WeChat */,
+			);
+			name = ShareSDKPlatforms;
+			sourceTree = "<group>";
+		};
+		FDCA98C19720CB411BD6F99EC674FA02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC7654A6AC9620D6B449890C79A5D680 /* ShareSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C4AF7A80681640D5F85A316EF4497E7 /* Pods-ShareAndPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C083942DB6FCC8D03B4E95F168C2AC /* Build configuration list for PBXNativeTarget "Pods-ShareAndPay" */;
+			buildPhases = (
+				8ACD0846CDA46C2710E92D4314412820 /* Sources */,
+				7AA740A1A6CD6975BBEF5D0A35837834 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ShareAndPay";
+			productName = "Pods-ShareAndPay";
+			productReference = 4873A55794EFC021D690F1025CBF2BC9 /* libPods-ShareAndPay.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5CFE193829CBADE3A48E387CF741DDFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C4AF7A80681640D5F85A316EF4497E7 /* Pods-ShareAndPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ACD0846CDA46C2710E92D4314412820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322A68EC742E10B5D7B5D339E0122EF7 /* Pods-ShareAndPay-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		626C1B8ACF5BD3269FE4FBC7BB86173A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A26957BF4CD37C06C00368E143AF55F0 /* Pods-ShareAndPay.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8641DF0841822556C9F228CCCCA0E463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E4BB90DE26FEC7AB3871A689290614 /* Pods-ShareAndPay.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C083942DB6FCC8D03B4E95F168C2AC /* Build configuration list for PBXNativeTarget "Pods-ShareAndPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626C1B8ACF5BD3269FE4FBC7BB86173A /* Debug */,
+				8641DF0841822556C9F228CCCCA0E463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
